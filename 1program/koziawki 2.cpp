@@ -2,19 +2,18 @@
 using namespace std;
  int main(){
  
-   int a = 8;
-   int b = 3;
-int suma = a + b;
-    int roznica = a - b;
-    int iloczyn = a * b;
-    
-    cout << "Liczba a = " << a<< endl;
-    cout << "Liczba b = " << b<< endl;
-    cout << "Suma: " << suma;
-    cout << "Roznica: " << roznica<< endl;
-    cout << "Iloczyn: " << iloczyn<< endl;
-    
-    cout << 8 << a;
-    cout << 3 << b;
+   int tablica[5];
+   int suma=0;
+   int max=5;
+    cout <<"podaj liczby calkawite"<<endl;
+	for (int i = 0; i < max; i++){
+		
+		
+	cout << "Podaj liczbe nr " << i+1 << ": ";
+	cin >> tablica[i];
+	suma+= tablica[i];}	
+	cout <<"srednia liczb "<<suma/max<<endl;
+	
+
 return 0;
 }
