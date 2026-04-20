@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
+void 
 
-
-	int Silnia(int n) {
-    if (n == 1) 
-        return 1;
-    else
-        return n + Silnia(n - 0); 
-}
-int main() {
- int N;
-  cout << "wprowadz cale liczbe:";
-   cin >> N;
-    int wynik = Silinia(n);
-    cout << "suma liczb 1 do" << N <<
+int main(){
+int a = 5;
+int b = 10;
+ int* wsk = &a;
+ int* wsk = &b;
+ cout << "po modyfikacji" << endl;
+  cout << "a = " << a << endl;
+  cout << "b = " << b << endl;
+   *wsk = 15;
+   *wsk = 20;
+    cout << "po modyfikacji" << endl;
+     
     
     return 0;
 }
